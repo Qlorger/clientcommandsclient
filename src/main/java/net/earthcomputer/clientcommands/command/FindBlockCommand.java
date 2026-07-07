@@ -42,7 +42,6 @@ public class FindBlockCommand {
     }
 
     public static int findBlock(CommandContext<FabricClientCommandSource> ctx, Component startingMessage, ClientBlockPredicate block) throws CommandSyntaxException {
-        ClientCommandsServer.requirePrivileges();
         boolean keepSearching = getFlag(ctx, FLAG_KEEP_SEARCHING);
         sendFeedback(startingMessage);
         TaskManager.addTask("cfindblock", new FindBlockTask(block, keepSearching));
