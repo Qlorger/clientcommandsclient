@@ -5,18 +5,9 @@ Adds several useful client-side commands to Minecraft
 Discord: https://discord.gg/Jg7Bun7
 Patreon: https://www.patreon.com/earthcomputer
 
-## Installation
-1. Download and run the [Fabric installer](https://fabricmc.net/use).
-   - Click the "vanilla" button, leave the other settings as they are,
-     and click "download installer".
-   - Note: this step may vary if you aren't using the vanilla launcher
-     or an old version of Minecraft.
-1. Download [Fabric API](https://minecraft.curseforge.com/projects/fabric)
-   and move it to the mods folder (`.minecraft/mods`).
-1. Download clientcommands from the [releases page](https://github.com/Earthcomputer/clientcommands/releases) or from [Modrinth](https://modrinth.com/mod/client-commands)
-   and move it to the mods folder (`.minecraft/mods`).
+## Changes:
+All commands mentioned in https://github.com/Earthcomputer/clientcommands/blob/eae16398316fa0295fe7172f8fd690f0a6da1f89/docs/server_installation.md
+are now capable of being run no regardless of whether you have operator or if the server has it installed.
 
-## Contributing
-To contribute translations, see the [translation contribution guidelines](docs/TRANSLATING.md).
-
-For other contributions, see the [contribution guidelines](docs/CONTRIBUTING.md).
+## Status:
+[Still a W.I.P.\]
